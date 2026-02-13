@@ -1,13 +1,12 @@
 @import "tailwindcss";
 
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
 
-/* @theme {
-  --font-mont: "Montserrat", sans-serif;
-} */
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+}
 
 .menu {
-  @apply text-base font-semibold text-[#333333] ;
+  @apply text-base font-semibold font-montserrat text-[#333333] ;
 }
 .menu:hover {
   @apply  text-[#054C73] duration-300 ease-in-out;

@@ -4,8 +4,7 @@ import React from "react";
 import logo from "../../public/images/logo.png";
 import Link from "next/link";
 import Hamburger from "./Hamburger";
-import MobileMenu from "./MobileMenu";
-
+import MobileMenu from "./MobileMenu"; 
 const Navbar = () => {
   return (
     <>
@@ -19,7 +18,7 @@ const Navbar = () => {
             </div>
             <div className="menus">
               <nav>
-                <ul className="hidden lg:flex items-center gap-15">
+                <ul className="hidden lg:flex items-center justify-end gap-18.25">
                   <li className="menu">
                     <Link href="">Home</Link>
                   </li>

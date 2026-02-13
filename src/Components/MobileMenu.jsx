@@ -8,7 +8,7 @@ const MobileMenu = ({ toggle, setToggle }) => {
   return (
     <>
       <aside
-        className={`h-screen w-8/10 fixed top-[-82px] duration-300 ease-in-out ${toggle ? "left-0" : "left-[-100%]"}  bg-white px-5 py-10 shadow-2xl mt-21`}
+        className={`h-screen w-8/10 fixed -top-20.5 duration-300 ease-in-out ${toggle ? "left-0" : "-left-full"}  bg-white px-5 py-10 shadow-2xl mt-21`}
       >
         <div className="logo relative">
           <div className="absolute -right-1.25 -top-8.75 text-2xl font-extrabold text-[#054C73] shadow-md px-2 py-2 cursor-pointer">
