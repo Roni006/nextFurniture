@@ -15,7 +15,7 @@ const Banner = () => {
             </h6>
             <h1 className="text-[#054C73] text-[52px] font-montserrat leading-15.25 font-bold  w-97.5 pb-5">Discover Our New Collection</h1>
             <p className="text-[18px] font-montserrat leading-9.75 font-medium text-[#333333] w-117.5 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-            <button className="bg-[#054C73] px-18 py-6.25 rounded-[50px] text-[#ffffff] font-bold text-base font-montserrat">BUY NOW</button>
+            <button className="bg-[#054C73] px-18 py-6.25 rounded-[50px] text-[#ffffff] font-bold text-base font-montserrat cursor-pointer">BUY NOW</button>
           </div>
         </div>
       </section>
