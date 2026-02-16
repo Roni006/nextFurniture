@@ -14,7 +14,7 @@ export default function Home() {
       <Inspiration/>
       <Beauty/> 
       <Range/>
-      {/* <Work/> */}
+      <Work/>
       <Mailing/>
     </>
   );
